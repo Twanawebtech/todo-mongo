@@ -1,6 +1,7 @@
 // const MongoClient = require('mongodb').MongoClient;
 // Same code as above but using ES6 destructuring.
 // This allow us to pull off more things then just MongoClient
+// Later we will use Mongoose in place of the MongoDB driver as it make things more easy.
 const {MongoClient, ObjectID} = require('mongodb');
 
 MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, db) => {
